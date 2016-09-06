@@ -25,10 +25,16 @@ $ pyvenv chatbotEnv
 ```
 アクティベートの実行
 ```
-$ cd chatbotEnv
-$ source bin/activate
+$ source chatbotEnv/bin/activate
 ```
 仮想環境から抜ける
 ```
 $ deactivate
+```
+### 各種ライブラリ
+NLTK(Natural Language Tool Kit)のインストール
+```
+$ sudo pip3 install -U nltk
+...
+Successfully installed nltk-3.2.1
 ```
